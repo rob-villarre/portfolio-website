@@ -1,0 +1,46 @@
+/*JetBrainsMono*/
+
+.default-font {
+  font-family: 'JetBrainsMono';
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    local('JetBrainsMono'),
+    url(./assets/fonts/JetBrainsMono-2.242/webfonts/JetBrainsMono-Regular.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  font-weight: bold;
+  font-style: normal;
+  src:
+    local('JetBrainsMono'),
+    url(./assets/fonts/JetBrainsMono-2.242/webfonts/JetBrainsMono-Bold.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  font-weight: bold;
+  font-style: italic;
+  src:
+    local('JetBrainsMono'),
+    url(./assets/fonts/JetBrainsMono-2.242/webfonts/JetBrainsMono-BoldItalic.woff2)
+    format('woff2');
+}
+
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  font-weight:lighter;
+  font-style: italic;
+  src:
+    local('JetBrainsMono'),
+    url(./assets/fonts/JetBrainsMono-2.242/webfonts/JetBrainsMono-BoldItalic.woff2)
+    format('woff2');
+}

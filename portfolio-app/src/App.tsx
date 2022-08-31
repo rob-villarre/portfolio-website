@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-// import './App.css';
+import './App.css';
+import Navbar from './components/navbar'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-column min-vh-100">
       <header className="App-header">
-
+        <Navbar />
       </header>
       <body>
-
+      
       </body>
       <footer>
 

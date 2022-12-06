@@ -1,16 +1,24 @@
 import React from 'react';
-import './App.css';
-import './fonts.css';
+import './css/fonts.css';
+import './css/index.scss';
 
 import Navbar from './components/navbar'
-
+// flex-grow-1
 function App() {
   return (
-    <div className="App default-font d-flex flex-column min-vh-100">
+    <div className='min-vh-100 d-flex flex-column'>
       <header className="App-header">
         <Navbar />
       </header>
-      <strong>dsad </strong>hello hopw asd adas da d0o
+      <body className='container-fluid bg flex-grow-1 d-flex flex-column justify-content-evenly align-items-start body-bg text-light'>
+        <div className=''>
+          <strong>Hello Wolrd!</strong><br/>this is a test
+        </div>
+        <div className=''>
+          <strong>Hello Wolrd!</strong><br/>under maintenance
+        </div>
+      </body>
+      
       <footer>
 
       </footer>

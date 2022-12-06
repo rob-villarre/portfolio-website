@@ -14,6 +14,10 @@ resource "digitalocean_app" "portfolio-app" {
     name    = "portfolio-app"
     region  = "tor"
 
+    domain {
+      name = "www.ro-va.dev"
+    }
+
     static_site {
       build_command     = "npm run build"
       environment_slug  = "node-js"

@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // bootstrap
-import 'bootstrap-dark-5/dist/css/bootstrap-dark.min.css';
+import 'bootstrap-dark-5/dist/css/bootstrap-night.min.css';
 import 'bootstrap/dist/js/bootstrap';
 
 const root = ReactDOM.createRoot(

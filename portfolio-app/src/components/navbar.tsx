@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                 <a className="nav-link active" aria-current="page" href="#top">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#top">Projects</a>
+                <a className="nav-link active" href="#top">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link d-sm-inline-flex justify-content-center" href="https://github.com/rob-villarre"><img src={require("../assets/github-mark/github-mark-white.png")} width={25} height={25} alt="GitHub"/></a>

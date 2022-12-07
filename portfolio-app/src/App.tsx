@@ -10,12 +10,15 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <body className='container-fluid bg flex-grow-1 d-flex flex-column justify-content-evenly align-items-start body-bg text-light'>
-        <div className=''>
-          <strong>Hello Wolrd!</strong><br/>this is a test
-        </div>
-        <div className=''>
-          <strong>Hello Wolrd!</strong><br/>under maintenance
+      <body className='bg flex-grow-1 d-flex flex-column text-light'>
+        <div className='bg-primary text-secondary px-4 py-5 m-4 text-center rounded' id='hero'>
+          <div className='py-5'>
+            <h1 className='display-5 fw-bold text-white'>Hello World!</h1>
+            <div className='col-lg-6 mx-auto'>
+              <p className='fs-5 mb-4 text-white'>My name is Roberto Villarreal Andrade</p>
+
+            </div>
+          </div>
         </div>
       </body>
       

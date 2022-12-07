@@ -3,7 +3,7 @@ import React from "react";
 class Navbar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-xxl">
           <a className="navbar-brand" href="#top">Rova</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,8 +17,8 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link active" href="#top">Projects</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link d-sm-inline-flex justify-content-center" href="https://github.com/rob-villarre"><img src={require("../assets/github-mark/github-mark-white.png")} width={25} height={25} alt="GitHub"/></a>
+              <li className="nav-item ps-lg-2 d-none d-lg-block">
+                <a className="navbar-brand" href="https://github.com/rob-villarre"><img src={require("../assets/github-mark/github-mark-white.png")} width={25} height={25} alt="GitHub"/></a>
               </li>
             </ul>
           </div>

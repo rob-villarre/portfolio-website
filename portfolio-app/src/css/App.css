@@ -1,0 +1,21 @@
+#cursor {
+  margin: 0;
+  display: inline-block;
+}
+
+#hero {
+  /* background-image: linear-gradient(180deg, #222222 50%, #ADD8E6 calc(50% + 1px)) */
+}
+
+#about {
+  
+}
+
+/*
+Pale pink: #FFD1DC, #F8D0E9, #F5B6D2
+Light blue: #ADD8E6, #B2EBF2, #D1E8FF
+Mint green: #98FF98, #B2FFD9, #CCFFCC
+Lavender: #E6E6FA, #D8BFD8, #D3D3E7
+Coral: #FFBFBF, #FF9F9F, #FF7F7F
+Light yellow: #FFFFCC, #FFFFE0, #FFFFF0
+*/

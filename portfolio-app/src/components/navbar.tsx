@@ -17,7 +17,8 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link active" href="#top">Projects</a>
               </li>
-              <li className="nav-item ps-lg-2 d-none d-lg-block">
+              {/* d-none d-lg-block */}
+              <li className="nav-item ps-lg-2">
                 <a className="navbar-brand" href="https://github.com/rob-villarre"><img src={require("../assets/github-mark/github-mark-white.png")} width={25} height={25} alt="GitHub"/></a>
               </li>
             </ul>

@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap-dark-5/dist/css/bootstrap-night.min.css';
 import 'bootstrap/dist/js/bootstrap';
 
+// icons
+import 'devicon/devicon.min.css'
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

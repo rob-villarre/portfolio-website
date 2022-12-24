@@ -19,13 +19,13 @@ class Hero extends React.Component {
       <section id='hero'>
           <div className='min-vh-100 px-sm-4 py-5 d-flex flex-column justify-content-center'>
             <div className="py-5 mx-5 bg-dark">
-              <div className="">
+              <div className="px-lg-2 px-4">
                 {/*Hello World Message*/}
                 <h1 className='display-6 fw-bold mx-sm-5'><span id='text'></span><span id='cursor'>|</span></h1>
                 <div className='mx-sm-5'>
                   <h2 className='fs-3 mb-4'>I'm Roberto Villarreal Andrade,</h2>
                   <h3 className='fs-4 text-white-50'>
-                    A software engineering student studying at the University of Alberta. <br />
+                    A software engineering student at the University of Alberta. <br />
                   </h3>
                 </div>
               </div>

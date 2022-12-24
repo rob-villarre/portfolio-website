@@ -15,10 +15,10 @@ class Navbar extends React.Component {
                 <a className="nav-link active" aria-current="page" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
+                <a className="nav-link active" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#projects">Projects</a>
+                <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
               </li>
               {/* d-none d-lg-block */}
               <li className="nav-item ps-lg-2">

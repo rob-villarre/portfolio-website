@@ -4,12 +4,17 @@
 }
 
 #hero {
-  background-image: linear-gradient(180deg, #222222 50%, #ADD8E6 calc(50% + 1px))
+  /* background-image: linear-gradient(180deg, #222222 50%, #ADD8E6 calc(50% + 1px)) */
 }
 
 #about {
   /* background-image: linear-gradient(180deg, #ADD8E6 50%, #F8D0E9 calc(50% + 1px)) */
 }
+
+.test {
+  color: #ADD8E6;
+}
+
 
 /*
 Pale pink: #FFD1DC, #F8D0E9, #F5B6D2

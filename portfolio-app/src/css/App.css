@@ -11,9 +11,10 @@
   /* background-image: linear-gradient(180deg, #ADD8E6 50%, #F8D0E9 calc(50% + 1px)) */
 }
 
-.test {
-  color: #ADD8E6;
+.blue-bg {
+  background-color: #ADD8E6;
 }
+
 
 
 /*

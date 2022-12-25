@@ -18,7 +18,7 @@ class Hero extends React.Component {
     return (
       <section id='hero'>
           <div className='min-vh-100 px-sm-4 py-5 d-flex flex-column justify-content-center'>
-            <div className="py-5 mx-5 bg-dark">
+            <div className="py-5 mx-5 border-blue border-5 bg-dark">
               <div className="px-lg-2 px-4">
                 {/*Hello World Message*/}
                 <h1 className='display-6 fw-bold mx-sm-5'><span id='text'></span><span id='cursor'>|</span></h1>
